@@ -58,5 +58,8 @@ console.log(isN1LargerThanN4);
 const substractN1FromN2 = n2 - n1;
 console.log(substractN1FromN2);
 // TO-DO Multiply the result by the third number.
+const resultBythree = substractN1FromN2 * 3;
+console.log(resultBythree);
 // TO-DO Find the remainder of dividing the result by the fourth number.
+
 // TO-DO Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
