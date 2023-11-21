@@ -72,7 +72,7 @@ const isBelow25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 
 const isValid2 = isSum50 && isTwoOdd && isBelow25 && isUnique;
 
-console.log(`>>>>>>>>PART 1: MATH PROBLEMS<<<<<<<<<<
+console.log(`>>>>>>>>>>>>>>>>>>>>>>>>PART 1: MATH PROBLEMS<<<<<<<<<<<<<<<<<<<<<<<<<<
 - The statement "${n1}, ${n2}, ${n3}, and ${n4} are divisible by 5" is  ${areDivisibleByFive}.
 - The statement "${n1} is larger than ${n4}" is ${isN1LargerThanN4}.
 - When we substract "${n1}" from "${n2}" we get "${substractN1FromN2}".
@@ -105,7 +105,7 @@ const numberGallonsNeededIfTravel60Mph = totalDistance / 28;
 
 // Calculate the amount of gallons needed if travelling at an average of 75 mph
 const numberGallonsNeededIfTravel75Mph = totalDistance / 23;
-console.log(`>>>>>>>>PART 2: PRACTICAL MATH<<<<<<<<
+console.log(`>>>>>>>>>>>>>>>>>>>>>>>>PART 2: PRACTICAL MATH<<<<<<<<<<<<<<<<<<<<<<<<
 AMOUNT OF GALLONS NEEDED:
 The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel55Mph}. The amount of gallons needed if travelling at an average of 60 is: ${numberGallonsNeededIfTravel60Mph}. The amount of gallons needed if travelling at an average of 75 is: ${numberGallonsNeededIfTravel75Mph}\n`);
 
