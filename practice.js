@@ -124,7 +124,7 @@ const costIfTravel75Mph = numberGallonsNeededIfTravel75Mph * pricePerGal;
 console.log(`COST OF FUEL:
 The cost of fuel if I travel at an average of 55 mph is "\$${costIfTravel55Mph}". The cost of fuel if I travel at an average of 60 mph is "\$${costIfTravel60Mph}". The cost of fuel if I travel at an average of 75 mph is "\$${costIfTravel75Mph}". 
 
-Considering the data above, we can conclude that my budget would not be enough if I travel at an average of 75 mph, the most fuel efficient speed, therefore the cheapest one, is 55 mph, and the fastest speed I can go without spending more than /$175 is 60 mph\n`);
+Considering the data above, my budget would not be enough if I travel at an average of 75 mph, the most fuel efficient speed, therefore the cheapest one, is 55 mph, and the fastest speed I can go without spending more than /$175 is 60 mph\n`);
 
 
 //DURATION OF THE TRIP:
@@ -138,5 +138,6 @@ const durationTrip75Mph = totalDistance / 75;
 console.log(`DURATION OF THE TRIP:
 - At 55 mph: ${durationTrip55Mph} hrs.
 - At 60 mph: ${durationTrip60Mph} hrs.
-- At 75 mph: ${durationTrip75Mph} hrs.`);
+- At 75 mph: ${durationTrip75Mph} hrs.
 
+We can conclude that the speed that makes more sense is 60mph because I can reach my destination faster while staying within my budget.`);
