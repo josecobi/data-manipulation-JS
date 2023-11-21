@@ -92,10 +92,13 @@ console.log(`The four numbers are valid according to the provided criteria: ${is
 const totalDistance = 1500;
 
 // Calculate the amount of gallons needed if travelling at an average of 55 mph
-const numberGallonsNeededIfTravel55mph = totalDistance / 30
+const numberGallonsNeededIfTravel55mph = totalDistance / 30;
 console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel55mph}`);
 
 // Calculate the amount of gallons needed if travelling at an average of 60 mph
-
+const numberGallonsNeededIfTravel60mph = totalDistance / 28;
+console.log(`The amount of gallons needed if travelling at an average of 60 is: ${numberGallonsNeededIfTravel60mph}`);
 
 // Calculate the amount of gallons needed if travelling at an average of 75 mph
+const numberGallonsNeededIfTravel75mph = totalDistance / 23;
+console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel75mph}`);
