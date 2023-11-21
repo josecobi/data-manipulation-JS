@@ -90,15 +90,19 @@ console.log(`The four numbers are valid according to the provided criteria: ${is
 
 
 const totalDistance = 1500;
+const pricePerGal = 3;
 
 // Calculate the amount of gallons needed if travelling at an average of 55 mph
-const numberGallonsNeededIfTravel55mph = totalDistance / 30;
-console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel55mph}`);
+const numberGallonsNeededIfTravel55Mph = totalDistance / 30;
+console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel55Mph}`);
 
 // Calculate the amount of gallons needed if travelling at an average of 60 mph
-const numberGallonsNeededIfTravel60mph = totalDistance / 28;
-console.log(`The amount of gallons needed if travelling at an average of 60 is: ${numberGallonsNeededIfTravel60mph}`);
+const numberGallonsNeededIfTravel60Mph = totalDistance / 28;
+console.log(`The amount of gallons needed if travelling at an average of 60 is: ${numberGallonsNeededIfTravel60Mph}`);
 
 // Calculate the amount of gallons needed if travelling at an average of 75 mph
-const numberGallonsNeededIfTravel75mph = totalDistance / 23;
-console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel75mph}`);
+const numberGallonsNeededIfTravel75Mph = totalDistance / 23;
+console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel75Mph}`);
+
+const costIfTravel55Mph = numberGallonsNeededIfTravel55Mph * pricePerGal;
+console.log(`The cost of fuel if I travel at an average of 55 mph is "\$${costIfTravel55Mph}".`);
