@@ -1,3 +1,6 @@
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>PART 1: MATH PROBLEMS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
 // The initial numbers that must be verified.
 const n1 = 10;
 const n2 = 15;
@@ -67,8 +70,32 @@ const remainder = resultBythree % n4;
 console.log(`The remainder of dividing the result in the previous line by n4 is "${remainder}".`);
 // TO-DO Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
 
+// I changed the comparison operator (>) for (<) to make the result of the comparison to be true so the negation operator(!) is not needed in other comparisons
 const isBelow25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
 
 const isValid2 = isSum50 && isTwoOdd && isBelow25 && isUnique;
 
 console.log(`The four numbers are valid according to the provided criteria: ${isValid2}.`);
+
+
+
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>PART 2: PRACTICAL MATH <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// Questions:
+//How many gallons of fuel will you need for the entire trip?
+// Will your budget be enough to cover the fuel expense?
+// How long will the trip take, in hours?
+//Compare the results when traveling at an average of 55, 60, and 75 miles per hour. Which makes the most sense for the trip?
+
+
+const totalDistance = 1500;
+
+// Calculate the amount of gallons needed if travelling at an average of 55 mph
+const numberGallonsNeededIfTravel55mph = totalDistance / 30
+console.log(`The amount of gallons needed if travelling at an average of 55 is: ${numberGallonsNeededIfTravel55mph}`);
+
+// Calculate the amount of gallons needed if travelling at an average of 60 mph
+
+
+// Calculate the amount of gallons needed if travelling at an average of 75 mph
