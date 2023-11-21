@@ -61,5 +61,6 @@ console.log(substractN1FromN2);
 const resultBythree = substractN1FromN2 * 3;
 console.log(resultBythree);
 // TO-DO Find the remainder of dividing the result by the fourth number.
-
+const remainder = resultBythree % n4;
+console.log(remainder);
 // TO-DO Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
