@@ -47,24 +47,24 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 
 // TO-DO Check if all numbers are divisible by 5. Cache the result in a variable.
  const areDivisibleByFive = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0);
- console.log(areDivisibleByFive);
+ console.log(`The statement "${n1}, ${n2}, ${n3}, and ${n4} are divisible by 5" is  ${areDivisibleByFive}.`);
 
 
  
 
 // TO-DO Check if the first number is larger than the last. Cache the result in a variable.
 const isN1LargerThanN4 = n1 > n4;
-console.log(`The statement n1 is larger than n4 is ${isN1LargerThanN4}`);
+console.log(`The statement "n1 is larger than n4" is ${isN1LargerThanN4}.`);
 // TO-DO Accomplish the following arithmetic chain:
 // TO-DO Subtract the first number from the second number.
 const substractN1FromN2 = n2 - n1;
-console.log(`When we substract n1 from n2 we get ${substractN1FromN2}`);
+console.log(`When we substract n1 from n2 we get "${substractN1FromN2}".`);
 // TO-DO Multiply the result by the third number.
 const resultBythree = substractN1FromN2 * n3;
-console.log(`If we multiply the result above by n3 the result in the previous line is ${resultBythree}`);
+console.log(`If we multiply the result above by ${n3} the result in the previous line is "${resultBythree}".`);
 // TO-DO Find the remainder of dividing the result by the fourth number.
 const remainder = resultBythree % n4;
-console.log(`The remainder of dividing the result in the previous line by n4 is ${remainder}`);
+console.log(`The remainder of dividing the result in the previous line by n4 is "${remainder}".`);
 // TO-DO Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
 
 const isBelow25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
